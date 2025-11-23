@@ -15,15 +15,17 @@ Home Assistant integration that bridges the TRMNL Screenshot Addon and TRMNL Rec
 ### Via HACS (Recommended)
 
 1. Open Home Assistant and go to **Settings → Devices & Services → Integrations**
-2. Click **+ Create Integration**
-3. Search for "TRMNL Screenshot"
-4. Follow the configuration wizard
+2. Click **⋮ → Repositories**
+3. Add custom repository: `https://github.com/chbarnhouse/ha-trmnl-screenshot-integration`
+4. Category: **Integration**
+5. Click **+ Create Integration** and search for "TRMNL Screenshot"
+6. Follow the configuration wizard
 
 ### Manual Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ha-trmnl-screenshot-integration.git \
+   git clone https://github.com/chbarnhouse/ha-trmnl-screenshot-integration.git \
      /home/homeassistant/.homeassistant/custom_components/trmnl_screenshot
    ```
 
