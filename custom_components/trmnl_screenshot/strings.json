@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "TRMNL Screenshot Setup",
+        "description": "Configure TRMNL Screenshot integration",
+        "data": {
+          "trmnl_device_id": "TRMNL Device ID",
+          "addon_host": "Addon Host URL"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "TRMNL Screenshot Options",
+        "data": {
+          "auto_capture_interval": "Auto Capture Interval (seconds)",
+          "hash_check_enabled": "Enable Change Detection"
+        }
+      }
+    }
+  }
+}

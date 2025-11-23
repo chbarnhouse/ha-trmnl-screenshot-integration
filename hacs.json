@@ -1,0 +1,10 @@
+{
+  "name": "TRMNL Screenshot Integration",
+  "content_in_root": true,
+  "homeassistant": "2024.1.0",
+  "iot_class": "local_polling",
+  "requirements": [
+    "aiohttp>=3.8.0",
+    "pillow>=9.0.0"
+  ]
+}
