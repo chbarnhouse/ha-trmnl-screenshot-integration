@@ -1,5 +1,4 @@
 {
-  "manifest_version": 1,
   "domain": "trmnl_screenshot",
   "name": "TRMNL Screenshot Integration",
   "documentation": "https://github.com/chbarnhouse/ha-trmnl-screenshot-integration",
@@ -15,5 +14,6 @@
   "version": "1.0.0",
   "iot_class": "local_polling",
   "homeassistant": "2024.1.0",
-  "dependencies": ["trmnl"]
+  "dependencies": ["trmnl"],
+  "integration_type": "service"
 }
