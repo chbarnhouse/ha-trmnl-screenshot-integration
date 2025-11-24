@@ -13,7 +13,6 @@
   "config_flow": true,
   "version": "1.0.0",
   "iot_class": "local_polling",
-  "homeassistant": "2024.1.0",
   "dependencies": ["trmnl"],
   "integration_type": "service"
 }

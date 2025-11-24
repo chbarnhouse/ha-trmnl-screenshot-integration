@@ -1,0 +1,35 @@
+capture_and_send:
+  name: Capture and Send Screenshot
+  description: Capture the current Home Assistant UI and send it to a TRMNL device.
+  target:
+    entity:
+      domain: trmnl_screenshot
+  fields:
+    device_id:
+      name: Device
+      description: The TRMNL device to send the screenshot to.
+      required: true
+      selector:
+        device:
+          model: TRMNL
+
+send_screenshot:
+  name: Send Screenshot
+  description: Send a screenshot file to a TRMNL device.
+  target:
+    entity:
+      domain: trmnl_screenshot
+  fields:
+    device_id:
+      name: Device
+      description: The TRMNL device to send the screenshot to.
+      required: true
+      selector:
+        device:
+          model: TRMNL
+    image_path:
+      name: Image Path
+      description: Local path to the image file to send.
+      required: true
+      selector:
+        text:
